@@ -83,7 +83,7 @@ export const reviews = [
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'Pratik Vaghasiya',
         rating: 4.5,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
     }
@@ -94,29 +94,29 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { id: "prod-1", name: "Air Force 1", link: "/" },
+            { id: "prod-2", name: "Air Max 1", link: "/" },
+            { id: "prod-3", name: "Air Jordan 1", link: "/" },
+            { id: "prod-4", name: "Air Force 2", link: "/" },
+            { id: "prod-5", name: "Nike Waffle Racer", link: "/" },
+            { id: "prod-6", name: "Nike Cortez", link: "/" },
         ],
     },
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { id: "help-1", name: "About us", link: "/" },
+            { id: "help-2", name: "FAQs", link: "/" },
+            { id: "help-3", name: "How it works", link: "/" },
+            { id: "help-4", name: "Privacy policy", link: "/" },
+            { id: "help-5", name: "Payment policy", link: "/" },
         ],
     },
     {
         title: "Get in touch",
         links: [
-            { name: "pratikvaghasiya@opulotech.com", link: "mailto:pratikvaghasiya@opulotech.com" },
-            { name: "+917600692107", link: "tel:+917600692107" },
+            { id: "contact-1", name: "pratikvaghasiya@opulotech.com", link: "mailto:pratikvaghasiya@opulotech.com" },
+            { id: "contact-2", name: "+917600692107", link: "tel:+917600692107" },
         ],
     },
 ];
